@@ -1,5 +1,13 @@
 const ProjectAPI = [
   {
+    id: 11,
+    title: "Digits Delight",
+    discription: "Fun and learning facts about numbers.",
+    liveLink: "https://reactplay.io/plays/shivam-katare/digital-delight",
+    github: "https://github.com/reactplay/react-play/tree/main/src/plays/digital-delight",
+    imgUrl: "https://reactplay.io/static/media/cover.88e2ccf54d42e1b14f4d.png"
+  },
+  {
     id: 1,
     title: 'Tube-2-Tunes',
     discription:'Convert YouTube Music Videos to MP3 with Ease',

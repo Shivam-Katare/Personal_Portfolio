@@ -30,8 +30,8 @@ function Blogs() {
                       <p class="card__description">{discription}</p>
                     </div>
                     <footer class="blogs-card__footer">
-                      <span class="icon ion-clock"></span> 10 mins ago
-                      <span class="icon ion-chatbox"></span><a href="#"> 145 comments</a>
+                      <span class="icon ion-clock"></span>
+                      <span class="icon ion-chatbox"></span><a href="#"></a>
                     </footer>
                   </article>
                 </>

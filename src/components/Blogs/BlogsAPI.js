@@ -1,5 +1,15 @@
 const BlogsAPI = [
   {
+    id: 12,
+    title: "Stacks Uncovered",
+    discription: "Have you ever played with a stack of pancakes? Yes, pancakes! Consider a stack of fluffy pancakes. Each with a unique topping: maple syrup, butter...",
+    paraTwo: "The Secret Weapon of Data Structures",
+    date: "Mar 5, 2023",
+    liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-secret-weapon-of-data-structures-stacks-uncovered",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678028314821/621cf525-51f5-40aa-9d31-61bd5de5968b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+
+  },
+  {
     id: 1,
     title: 'Debugging',
     discription:

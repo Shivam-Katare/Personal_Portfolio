@@ -150,6 +150,14 @@ a.card-github-links {
     height: 17.4rem;
   }
 
+  a.card-github-links {
+    position: relative;
+    right: 5.6rem;
+    top: -1.4rem;
+    color: white;
+    font-size: 19px;
+}
+
   .teams .carousel .card .text {
     font-size: 17px;
   }

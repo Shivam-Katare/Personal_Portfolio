@@ -234,3 +234,10 @@ a {
     margin-right: 2rem;
 }
 }
+
+@media (max-width: 410px) {
+	.blogs-card {
+    width: 235px;
+		height: 9.4rem;
+	}
+}

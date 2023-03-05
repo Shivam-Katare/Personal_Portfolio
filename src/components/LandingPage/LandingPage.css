@@ -326,7 +326,7 @@ section .title::after {
 }
 
 @media (max-width: 1204px) {
-    .me{
+    .me {
         top: -24rem;
         left: 13rem;
     }
@@ -557,6 +557,18 @@ section .title::after {
     }
 }
 
+@media (max-width: 428px) {
+    .about .about-content .left {
+        width: 87%;
+        margin-left: 2.2rem;
+    }
+
+    .about .about-content .right {
+        width: 87%;
+        margin-left: -0.8rem;
+    }
+}
+
 @media (max-width: 404px) {
     .blogs-container {
         left: -3rem;
@@ -564,6 +576,18 @@ section .title::after {
 
     .max-width {
         overflow: hidden;
+    }
+}
+
+@media (max-width: 366px) {
+    .about .about-content .left {
+        margin-left: 1.2rem;
+    }
+}
+
+@media (max-width: 331px) {
+    h3.education {
+     font-size: 24px;
     }
 }
 
@@ -588,6 +612,7 @@ section .title::after {
         display: block;
         z-index: 999;
     }
+
     .navbar .menu {
         position: fixed;
         height: 100vh;
@@ -599,14 +624,17 @@ section .title::after {
         padding-top: 80px;
         transition: all 0.3s ease;
     }
+
     .navbar .menu li {
         display: block;
     }
+
     .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
+
     .navbar .menu.active {
         left: 0;
     }
@@ -616,15 +644,16 @@ section .title::after {
     .skills-content {
         flex-direction: column;
     }
+
     .skills .skills-content .column {
         width: calc(106% - 30px);
     }
-    
-    
+
+
 }
 
 @media (max-width: 334px) {
     ul.edu-list {
-      font-size: 12px;
-    }    
+        font-size: 12px;
+    }
 }

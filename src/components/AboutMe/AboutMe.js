@@ -18,19 +18,19 @@ function AboutMe() {
                 <p class="edu-para">React JS Developer at <strong>AccuKnox</strong></p>
 
                 <li class="edu-date-list">August 2022 - October 2022</li>
-                <p class="edu-para"><a className='achive-link inverted-7' href="https://drive.google.com/file/d/1-2QekibE9dqt0JsiOZ997jW_YvUFfxrv/view?usp=sharing">SSOC Open Source Contributer</a></p>
+                <p class="edu-para"><a className='achive-link inverted-7' target="_blank" href="https://drive.google.com/file/d/1-2QekibE9dqt0JsiOZ997jW_YvUFfxrv/view?usp=sharing">SSOC Open Source Contributer</a></p>
 
                 <li class="edu-date-list">April 2022 - Present</li>
                 <p class="edu-para">Contributer at <strong>ReactPlay</strong></p>
 
                 <li class="edu-date-list">March 2022 - November 2022</li>
-                <p class="edu-para"><a className='achive-link' href="https://drive.google.com/file/d/1U7nVz77ck-vBOacGkrRMTQPYLBr_s4hd/view?usp=share_link">Udemy Web Development & Web3 Course</a></p>
+                <p class="edu-para"><a className='achive-link' target="_blank" href="https://drive.google.com/file/d/1U7nVz77ck-vBOacGkrRMTQPYLBr_s4hd/view?usp=share_link">Udemy Web Development & Web3 Course</a></p>
 
                 <li class="edu-date-list">September 2022</li>
-                <p class="edu-para"><a className='achive-link' href="https://www.showwcase.com/thread/46502">ShowwCase GDSAugust Blogging Winner</a></p>
+                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/thread/46502">ShowwCase GDSAugust Blogging Winner</a></p>
 
                 <li class="edu-date-list">January 2023</li>
-                <p class="edu-para"><a className='achive-link' href="https://www.showwcase.com/show/25223/dev-elevate-silver-winners">ShowwCase Dev Elevate Silver Winner</a></p>
+                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/show/25223/dev-elevate-silver-winners">ShowwCase Dev Elevate Silver Winner</a></p>
 
                 <li class="edu-date-list">April 2020 - June 2020 </li>
                 <p class="edu-para">Certified by TCS ION</p>
