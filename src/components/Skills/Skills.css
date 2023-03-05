@@ -1,0 +1,121 @@
+.skills {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.skills .title::after {
+  content: "what i know";
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+  z-index: 7;
+}
+
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills .skills-content .left p {
+  text-align: justify;
+  line-height: 39px;
+}
+
+span.skill-high {
+  border-radius: 200px 71px 200px 102px;
+  -moz-border-radius: 200px 71px 200px 102px;
+  -webkit-border-radius: 200px 71px 154px 99px;
+  border: 3px solid #3cff37;
+}
+
+.underlined {
+  position: relative;
+}
+
+.underline-clip:after {
+  content: '';
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid red;
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
+}
+
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills .skills-content .right .line {
+  width: 100%;
+  position: relative;
+  color: #3cff37;
+}
+
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.skills-content .right .html::before {
+  width: 90%;
+}
+
+.skills-content .right .css::before {
+  width: 60%;
+}
+
+.skills-content .right .js::before {
+  width: 80%;
+}
+
+.skills-content .right .php::before {
+  width: 50%;
+}
+
+.skills-content .right .mysql::before {
+  width: 70%;
+}
+
+
+@media (max-width: 1035px) {
+  .skills-content {
+    flex-direction: column;
+  }
+
+  .skills .skills-content .column {
+    width: calc(106% - 30px);
+  }
+
+  .skills .skills-content .left .text {
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .column.right {
+    margin-top: 4rem;
+  }
+
+}

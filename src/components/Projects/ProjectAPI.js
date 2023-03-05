@@ -1,0 +1,85 @@
+const ProjectAPI = [
+  {
+    id: 1,
+    title: 'Tube-2-Tunes',
+    discription:'Convert YouTube Music Videos to MP3 with Ease',
+    liveLink: 'https://reactplay.io/plays/shivam-katare/tube2tunes',
+    github: 'https://github.com/reactplay/react-play/tree/main/src/plays/tube2tunes',
+    imgUrl: 'https://www.techsahaayata.com/wp-content/uploads/2019/11/download-vdeo-from-youtube-without-any-software.jpg'
+  },
+  {
+    id: 2,
+    title: 'Worlde',
+    discription:'This app is the clone of "WORDE". You have to find exact word, and this app will also gonna suggest you too.',
+    liveLink: 'https://worlde-world.vercel.app/',
+    github: 'https://github.com/Shivam-Katare/WorldeClone',
+    imgUrl: 'https://shivam-katare.github.io/Portfolio_Website/images/p3.png'
+  },
+  {
+    id: 3,
+    title: "Talkative Image",
+    discription: "Its an Image Gallery where users can explore multiple different types of images and on hovering over that they can also, listen about that image.",
+    liveLink: "https://reactplay.io/plays/shivam-katare/image-gallery",
+    github: "https://github.com/reactplay/react-play/tree/main/src/plays/image-gallery",
+    imgUrl: "	https://shivam-katare.github.io/Portfolio_Website/images/p10.png"
+  },
+  {
+    id: 4,
+    title: "Git Karo",
+    discription: "Git Karo is an React app, made with React with concepts useRef, useEffect and RestAPI, where user can search any github user in the world",
+    liveLink: "https://git-karo.vercel.app/",
+    github: "https://github.com/Shivam-Katare/GitUserSearch",
+    imgUrl: "	https://shivam-katare.github.io/Portfolio_Website/images/p7.png"
+  },
+  {
+    id: 5,
+    title: "Quick Recipe Finder",
+    discription: "React based application where you can find any ingredient's recipe in just a couple of seconds.",
+    liveLink: "https://recipeapp.shivamkatare.repl.co/",
+    github: "",
+    imgUrl: "https://user-images.githubusercontent.com/91705825/212071922-dde18dc1-fbcb-49c8-bca7-069c1da236f7.png"
+  },
+  {
+    id: 6,
+    title: "Disney+ Clone",
+    discription: "An React app, backed with Firebase. Made with Redux and Styled Components",
+    liveLink: "https://disneyplus-clone-472e0.web.app/",
+    github: "",
+    imgUrl: "https://shivam-katare.github.io/Portfolio_Website/images/p8.png"
+  },
+  {
+    id: 7,
+    title: "React-Auth",
+    discription: "React-auth is an React based web app made with Firebase.We can save our credentials here.",
+    liveLink: "https://auth-dev-a5fea.web.app/login",
+    github: "",
+    imgUrl: "https://shivam-katare.github.io/Portfolio_Website/images/p1.png"
+  },
+  {
+    id: 8,
+    title: "2048",
+    discription: "A react based 2048 game with unique animations and music.",
+    liveLink: "https://reactplay.io/plays/shivam-katare/2048",
+    github: "https://github.com/reactplay/react-play/tree/main/src/plays/2048",
+    imgUrl: "https://shivam-katare.github.io/Portfolio_Website/images/p11.png"
+  },
+  {
+    id: 9,
+    title: "Weather App",
+    discription: "Weather ia a React App which shows us weather of different-different contries, cities,and villages.",
+    liveLink: "https://weather-app-rho-pearl.vercel.app/",
+    github: "https://github.com/Shivam-Katare/Weather-React-Project",
+    imgUrl: "https://shivam-katare.github.io/Portfolio_Website/images/p2.png"
+  },
+  {
+    id: 10,
+    title: "PokeWorld",
+    discription: "PokeWorld is a Next.js application that allows users to explore detailed information about various Pokemon, including their types, strengths, weaknesses, and more",
+    liveLink: "https://poke-dex-phi.vercel.app/",
+    github: "https://github.com/Shivam-Katare/PokeDex",
+    imgUrl: "https://c4.wallpaperflare.com/wallpaper/986/198/362/pokemon-pokemon-go-pokemon-go-team-instinct-wallpaper-preview.jpg"
+  }
+
+]
+
+export default ProjectAPI;

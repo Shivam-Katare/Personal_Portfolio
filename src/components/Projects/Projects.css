@@ -1,0 +1,165 @@
+.teams .title::after {
+  content: "what i made";
+}
+
+a .project {
+  color: white;
+}
+
+.teams .carousel .card {
+  background: #222;
+  border: 2px solid #3cff37;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+i.fa.fa-external-link {
+  position: relative;
+  left: 10.6rem;
+  top: -1.4rem;
+}
+
+a.card-github-links {
+  position: relative;
+  right: 10.6rem;
+  top: -1.4rem;
+  color: white;
+  font-size: 19px;
+}
+
+.teams .carousel .card:hover {
+  background: #3cff37;
+}
+
+.teams .carousel .card:hover i.fa.fa-external-link {
+  background: #3cff37;
+}
+
+.teams .carousel .card:hover a.card-github-links {
+  color: black;
+}
+
+.teams .carousel .card:hover i.fa.fa-external-link {
+  color: black;
+}
+
+.teams .carousel .card .box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+  transform: scale(1.05);
+  color: black;
+}
+
+.teams .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #3cff37;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+  border-color: black;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #3cff37 !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: #3cff37 !important;
+}
+
+
+.carousel.owl-carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+}
+
+@media(max-width: 1189px) {
+  .carousel.owl-carousel {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .projects-contains {
+    padding-left: 7rem;
+}
+}
+
+@media(max-width: 943px) {
+  .projects-contains {
+    padding-left: 4rem;
+}
+}
+
+@media(max-width: 855px) {
+  .projects-contains {
+    padding-left: 1rem;
+}
+}
+
+@media(max-width: 815px) {
+  .carousel.owl-carousel {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    justify-items: center;
+  }
+}
+
+@media(max-width: 452px) {
+  .card {
+    width: 238px;
+    height: 17.4rem;
+  }
+
+  .teams .carousel .card .text {
+    font-size: 17px;
+  }
+
+  .teams .carousel .card img {
+    height: 82px;
+    width: 82px;
+  }
+
+  .project-dis {
+    font-size: 11px;
+  }
+}
