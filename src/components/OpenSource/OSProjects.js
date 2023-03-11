@@ -19,11 +19,6 @@ function OSProjects() {
             return (
               <>
                 <div class="card">
-                  <i class="fa fa-external-link" aria-hidden="true"></i>
-                  <a href={github} target="_blank"
-                    class="card-github-links">
-                    <FaGithub className='fa fa-github' />
-                  </a>
                   <a class="project" href={liveLink} target="_blank">
                     <div class="box">
                       <img src={imgUrl} alt="2048 project" />

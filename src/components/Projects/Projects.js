@@ -25,7 +25,7 @@ function Projects() {
                       </a>
                       <a class="project" href={liveLink} target="_blank">
                         <div class="box">
-                          <img src={imgUrl} alt="2048 project" />
+                          <img src={imgUrl} alt="projects" />
                           <div class="text">{title}</div>
                           <p className='project-dis'>{discription}
                           </p>

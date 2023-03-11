@@ -70,7 +70,7 @@ function AboutMe() {
                 <br /><br />
                 I pride myself on creating <b className='about-text-border'>efficient, user-friendly, and optimal web solutions</b> that can be applied to real-world projects. I love to experiment with new ideas, always excited to try out new things, and never shy away from exploring new knowledge.
                 <br /><br />
-                With <b className='about-text-border'>2 years of professional experience</b> and <b className='about-text-border'>4 years of building projects with JS</b>, I have honed my skills to deliver high-quality solutions to clients. Additionally, I have <b>1+ year of experience contributing to open-source projects</b> which has given me a sense of fulfillment and a strong desire to continue giving back to the community.</p>
+                With <b className='about-text-border'>1 year of professional experience</b> and <b className='about-text-border'>3 years of building projects with JS</b>, I have honed my skills to deliver high-quality solutions to clients. Additionally, I have <b>1+ year of experience contributing to open-source projects</b> which has given me a sense of fulfillment and a strong desire to continue giving back to the community.</p>
             </div>
           </div>
         </div>

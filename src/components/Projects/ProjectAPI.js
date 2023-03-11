@@ -1,5 +1,13 @@
 const ProjectAPI = [
   {
+    id: 12,
+    title: "BookScout",
+    discription: "Book Scout help you to find books of your choice. Enter book name and get to know a lot of about it.",
+    liveLink: "https://book-scout.vercel.app/",
+    github: "https://github.com/Shivam-Katare/BookScout",
+    imgUrl: "https://res.cloudinary.com/dbjmy6wdu/image/upload/v1678537655/Screenshot_841_iuvfid.png",
+  },
+  {
     id: 11,
     title: "Digits Delight",
     discription: "Fun and learning facts about numbers.",

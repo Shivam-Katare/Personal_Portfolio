@@ -1,5 +1,5 @@
-.teams .title::after {
-  content: "what i made";
+.open-source .os-title::after {
+  content: "what i contribute";
 }
 
 a .project {
