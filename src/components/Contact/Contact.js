@@ -18,31 +18,31 @@ function Contact() {
             <div class="row">
               <i class="fas fa-globe"></i>
               <div class="info">
-                <a href="https://www.showwcase.com/shivam-katare" class="head">ShowwCase</a>
+                <a href="https://www.showwcase.com/shivam-katare" class="head" target="_blank">ShowwCase</a>
               </div>
             </div>
             <div class="row">
               <i class="fa fa-twitter-square"></i>
               <div class="info">
-                <a href="https://twitter.com/Shivamkatare_27" class="head">Twitter</a>
+                <a href="https://twitter.com/Shivamkatare_27" class="head" target="_blank">Twitter</a>
               </div>
             </div>
             <div class="row">
               <i class="fa fa-github"></i>
               <div class="info">
-                <a href="https://github.com/Shivam-Katare" class="head">GitHub</a>
+                <a href="https://github.com/Shivam-Katare" class="head" target="_blank">GitHub</a>
               </div>
             </div>
             <div class="row">
               <i class="fa fa-linkedin-square"></i>
               <div class="info">
-                <a href="https://www.linkedin.com/in/shivam-katare-aa80b218b/" class="head">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/shivam-katare-aa80b218b/" class="head" target="_blank">LinkedIn</a>
               </div>
             </div>
             <div class="row">
               <i class="fa fa-compass"></i>
               <div class="info">
-                <a href="https://hashnode.com/@ShivamKatare" class="head">Hashnode</a>
+                <a href="https://hashnode.com/@ShivamKatare" class="head" target="_blank">Hashnode</a>
               </div>
             </div>
             <div class="row">

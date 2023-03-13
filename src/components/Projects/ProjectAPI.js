@@ -1,5 +1,14 @@
 const ProjectAPI = [
   {
+    id: 13,
+    title: "AnswerAce",
+    discription: "AnswerAce is a web application that uses OpenAI's GPT-3 language model to generate text-based responses to user queries. With AnswerAce, you can ask any question you want and get an answer in seconds",
+    liveLink: "https://answer-ace.vercel.app/",
+    github: "https://github.com/Shivam-Katare/AnswerAce",
+    imgUrl: "https://chatlayer.ai/wp-content/uploads/2022/04/Lingustics-Featured-Image-Blog-EN-EN-1-91-1-01.png"
+
+  },
+  {
     id: 12,
     title: "BookScout",
     discription: "Book Scout help you to find books of your choice. Enter book name and get to know a lot of about it.",
