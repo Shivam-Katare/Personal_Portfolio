@@ -1,5 +1,14 @@
 const BlogsAPI = [
   {
+    id: 13,
+    title: "The Power Of Open Source",
+    discription: "Hey there 👋, tech enthusiasts! Today, we're diving into the world of open-source software - and let me tell you, it's a real game-changer. If you're not...",
+    paraTwo: "How Collaboration is Revolutionizing Tech",
+    date: "Mar 12, 2023",
+    liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-power-of-open-source-how-collaboration-is-revolutionizing-tech",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678627703912/75207b8d-7353-49a8-9338-a1a0d6343428.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
     id: 12,
     title: "Stacks Uncovered",
     discription: "Have you ever played with a stack of pancakes? Yes, pancakes! Consider a stack of fluffy pancakes. Each with a unique topping: maple syrup, butter...",

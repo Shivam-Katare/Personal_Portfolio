@@ -85,7 +85,7 @@ function LandingPage() {
               cursor={true}
               repeat={Infinity}
             /></div>
-            <a href="https://drive.google.com/file/d/1wz8l7v0_coddIzMY39b9IywkarA4hvgD/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/15coOjDDgKy0TZD5ehbqfeKVihP0EW7OF/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
         </div>
       </section>
