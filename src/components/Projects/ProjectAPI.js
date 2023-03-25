@@ -1,5 +1,13 @@
 const ProjectAPI = [
   {
+    id: 14,
+    title: "Byte-Buddies",
+    discription: "Byte-Buddies is a real-time chat app built using React and Firebase. It allows users to create an account, update their profile with an avatar, and chat with other registered users.",
+    liveLink: "https://byte-buddies.vercel.app/login",
+    github: "https://github.com/Shivam-Katare/Byte-Buddies",
+    imgUrl: "https://cdn.dribbble.com/users/1259559/screenshots/15977879/media/679e9de2604794a3e17532faee4e8b17.jpg?compress=1&resize=400x300",
+  },
+  {
     id: 13,
     title: "AnswerAce",
     discription: "AnswerAce is a web application that uses OpenAI's GPT-3 language model to generate text-based responses to user queries. With AnswerAce, you can ask any question you want and get an answer in seconds",
@@ -27,7 +35,7 @@ const ProjectAPI = [
   {
     id: 1,
     title: 'Tube-2-Tunes',
-    discription:'Convert YouTube Music Videos to MP3 with Ease',
+    discription: 'Convert YouTube Music Videos to MP3 with Ease',
     liveLink: 'https://reactplay.io/plays/shivam-katare/tube2tunes',
     github: 'https://github.com/reactplay/react-play/tree/main/src/plays/tube2tunes',
     imgUrl: 'https://www.techsahaayata.com/wp-content/uploads/2019/11/download-vdeo-from-youtube-without-any-software.jpg'
@@ -35,7 +43,7 @@ const ProjectAPI = [
   {
     id: 2,
     title: 'Worlde',
-    discription:'This app is the clone of "WORDE". You have to find exact word, and this app will also gonna suggest you too.',
+    discription: 'This app is the clone of "WORDE". You have to find exact word, and this app will also gonna suggest you too.',
     liveLink: 'https://worlde-world.vercel.app/',
     github: 'https://github.com/Shivam-Katare/WorldeClone',
     imgUrl: 'https://shivam-katare.github.io/Portfolio_Website/images/p3.png'

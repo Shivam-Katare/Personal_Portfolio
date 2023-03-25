@@ -2,6 +2,7 @@ import React from 'react'
 import "./AboutMe.css"
 import { TypeAnimation } from 'react-type-animation';
 import NavBar from '../NavBar/NavBar';
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
   return (
@@ -26,10 +27,10 @@ function AboutMe() {
                 <li class="edu-date-list">March 2022 - November 2022</li>
                 <p class="edu-para"><a className='achive-link' target="_blank" href="https://drive.google.com/file/d/1U7nVz77ck-vBOacGkrRMTQPYLBr_s4hd/view?usp=share_link">Udemy Web Development & Web3 Course</a></p>
 
-                <li class="edu-date-list">September 2022</li>
-                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/thread/46502">ShowwCase GDSAugust Blogging Winner</a></p>
+                {/* <li class="edu-date-list">September 2022</li>
+                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/thread/46502">ShowwCase GDSAugust Blogging Winner</a></p> */}
 
-                <li class="edu-date-list">January 2023</li>
+                {/* <li class="edu-date-list">January 2023</li>
                 <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/show/25223/dev-elevate-silver-winners">ShowwCase Dev Elevate Silver Winner</a></p>
 
                 <li class="edu-date-list">April 2020 - June 2020 </li>
@@ -39,8 +40,23 @@ function AboutMe() {
                 <p class="edu-para">Bachelor in Computer Application</p>
 
                 <li class="edu-date-list">April 2018 - June 2019</li>
-                <p class="edu-para">Class 12th</p>
-
+                <p class="edu-para">Class 12th</p> */}
+                <div className='timeline-achivement-container'>
+                  <Link to="/timeline">
+                    <button className="timeline-button">
+                      <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                          <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>See All</span>
+                    </button>
+                  </Link>
+                
+                </div>
               </ul>
             </div>
             <div class="column right">

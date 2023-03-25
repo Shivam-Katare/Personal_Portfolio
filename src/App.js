@@ -6,6 +6,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import OSProjects from "./components/OpenSource/OSProjects";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Timeline from "./components/TimeLine/TimeLine";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/os-projects" element={<OSProjects />} />
+          <Route path="/timeline" element={<Timeline />} />
         </Routes>
       </BrowserRouter>
     </>

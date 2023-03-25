@@ -1,5 +1,14 @@
 const BlogsAPI = [
   {
+    id: 14,
+    title: "Cybersecurity 101",
+    discription: "As a beginner, you may have heard the term `cybersecurity` being thrown around a lot, but you may not fully understand what it means or why it is...",
+    paraTwo: "Protecting Yourself in the Digital World",
+    date: "Mar 18, 2023",
+    liveBlogLink: "https://shivamkatareblog.hashnode.dev/cybersecurity-101-protecting-yourself-in-the-digital-world",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1679151683426/4647eaac-825d-4542-bfff-64380d151d64.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
     id: 13,
     title: "The Power Of Open Source",
     discription: "Hey there 👋, tech enthusiasts! Today, we're diving into the world of open-source software - and let me tell you, it's a real game-changer. If you're not...",
