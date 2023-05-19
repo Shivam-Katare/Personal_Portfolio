@@ -1,5 +1,32 @@
 const BlogsAPI = [
   {
+    id: 17,
+    title: "Unleashing the Power of Aliases",
+    discription: "Hello, fellow tech enthusiasts! Are you tired of dealing with long, confusing import statements in your JavaScript projects?",
+    paraTwo: " Simplify Your JavaScript Imports!",
+    date: "May 16, 2023",
+    liveBlogLink: "https://blog.reactplay.io/unleashing-the-power-of-aliases-simplify-your-javascript-imports",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1684239328816/0b23c156-b52c-4e0d-931d-97365156a051.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
+    id: 16,
+    title: "Git Rebasing",
+    discription: "Have you ever found yourself lost in a sea of branching and merging while working on a project in Git? Do you dread the thought of trying to merge...",
+    paraTwo: "Revamp your Git workflow",
+    date: "May 01, 2023",
+    liveBlogLink: "https://blog.reactplay.io/revamp-your-git-workflow-with-the-magic-of-git-rebasing",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1682772411396/cf6b9ce3-3bdb-4534-b248-d04342979d2b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+    {
+    id: 15,
+    title: "Mastering TypeScript ",
+    discription: "TypeScript is a strongly typed superset of JavaScript that adds optional static typing, classes, and interfaces to the language.",
+    paraTwo: "A Comprehesive Guide",
+    date: "April 17, 2023",
+    liveBlogLink: "https://blog.reactplay.io/mastering-typescript-a-comprehensive-guide-for-getting-started-with-typescript",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681502860304/b6ed699b-575f-4468-b426-ee620ec720ce.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
     id: 14,
     title: "Cybersecurity 101",
     discription: "As a beginner, you may have heard the term `cybersecurity` being thrown around a lot, but you may not fully understand what it means or why it is...",
