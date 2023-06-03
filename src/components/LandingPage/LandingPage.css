@@ -32,6 +32,22 @@ html {
     background: #555;
 }
 
+.loader-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: "all 0.25s ease-in-out";
+    background-color: #191919;
+    color: #dbd8d6;
+  }
+
+.loader-pre {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+  }
 /* all similar content styling codes */
 section {
     padding: 100px 0;
@@ -327,7 +343,7 @@ section .title::after {
 
 @media (max-width: 1204px) {
     .me {
-        top: -24rem;
+        top: 0rem;
         left: 13rem;
     }
 }
@@ -458,7 +474,7 @@ section .title::after {
 
     .me {
         width: 20rem;
-        top: -28rem;
+        top: 0rem;
         left: 11rem;
     }
 }
@@ -509,8 +525,8 @@ section .title::after {
 @media (max-width: 523px) {
     .me {
         width: 16rem;
-        top: -25rem;
-        left: 10rem;
+        top: 0rem;
+        left: 3rem;
     }
 }
 
@@ -548,8 +564,8 @@ section .title::after {
 
 @media (max-width: 442px) {
     .me {
-        width: 0rem;
-        visibility: hidden;
+        width: 16rem;
+        left: 2rem;
     }
 
     .blogs-container {

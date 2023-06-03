@@ -1,64 +1,53 @@
 import React from 'react'
 import "./Contact.css"
 import DeveloperImage from "../images/developerImage.png";
+import { motion } from "framer-motion";
+import { SiGithub, SiGmail, SiHashnode, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { FaGlobe } from 'react-icons/fa';
 
 function Contact() {
   return (
     <>
-      <section class="contact" id="contact">
-    <div class="max-width">
-      <h2 class="title">Contact me</h2>
-      <div class="contact-content">
-        <div class="column left">
-          <div class="text">Get in Touch</div>
-          <p>I love to <span class="connect">learn new things</span> and share them with others. That's why I'm always <span class="connect">open to connect</span>
-             with people who share my passion for learning and creating.
-             You can find me on these platforms where I post my projects, insights and tips.</p>
-          <div class="icons">
-            <div class="row">
-              <i class="fas fa-globe"></i>
-              <div class="info">
-                <a href="https://www.showwcase.com/shivam-katare" class="head" target="_blank">ShowwCase</a>
+      <motion.section data-scroll-section class="contact" id="contact" initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}>
+        <div class="max-width">
+          <h2 class="title" id='#connect'>Contact me</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="text">Get in Touch</div>
+              <p>I love to <span class="connect">learn new things</span> and share them with others. That's why I'm always <span class="connect">open to connect</span>
+                with people who share my passion for learning and creating.
+                You can find me on these platforms where I post my projects, insights and tips.</p>
+              <div class="icons">
+                <div className='contact-footer-links'>
+                  <div className='icon-links'>
+                    <a href='' target='_blank'><SiTwitter style={{ color: "#00d2ff" }} /></a>
+                  </div>
+                  <div className='icon-links'>
+                    <a href="https://www.linkedin.com/in/shivam-katare-aa80b218b/" target='_blank'><SiLinkedin style={{ color: "#0595fa" }} /></a>
+                  </div>
+                  <div className='icon-links'>
+                    <a href="https://github.com/Shivam-Katare" target='_blank'><SiGithub color='white' /></a>
+                  </div>
+                  <div className='icon-links'>
+                    <a href="https://www.showwcase.com/shivam-katare" target='_blank'><FaGlobe color='white' /></a>
+                  </div>
+                  <div className='icon-links'>
+                    <a href="https://hashnode.com/@ShivamKatare" target='_blank'><SiHashnode color='white' /></a>
+                  </div>
+                  <div className='icon-links'>
+                    <a href="mailto:katare27451@gmail.com" target='_blank'><SiGmail color='red' /></a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <i class="fa fa-twitter-square"></i>
-              <div class="info">
-                <a href="https://twitter.com/Shivamkatare_27" class="head" target="_blank">Twitter</a>
-              </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-github"></i>
-              <div class="info">
-                <a href="https://github.com/Shivam-Katare" class="head" target="_blank">GitHub</a>
-              </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-linkedin-square"></i>
-              <div class="info">
-                <a href="https://www.linkedin.com/in/shivam-katare-aa80b218b/" class="head" target="_blank">LinkedIn</a>
-              </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-compass"></i>
-              <div class="info">
-                <a href="https://hashnode.com/@ShivamKatare" class="head" target="_blank">Hashnode</a>
-              </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-envelope"></i>
-              <div class="info">
-                <a href="mailto:katare27451@gmail.com" class="head">Email</a>
-              </div>
+            <div class="column right">
+              <img src={DeveloperImage} class="me" />
             </div>
           </div>
         </div>
-        <div class="column right">
-          <img src={DeveloperImage} class="me" />
-        </div>
-      </div>
-    </div>
-  </section>
+      </motion.section>
     </>
   )
 }

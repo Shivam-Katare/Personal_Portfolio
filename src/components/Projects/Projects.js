@@ -1,14 +1,16 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar';
 import ProjectAPI from './ProjectAPI'
 import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 function Projects() {
   const data = ProjectAPI;
   return (
     <>
-      <NavBar />
-      <section class="teams" id="teams">
+      <motion.section class="teams" id="teams" initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}>
         <div class="max-width">
           <h2 class="title">My Projects</h2>
           <div className='projects-contains'>
@@ -38,7 +40,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   )
 }

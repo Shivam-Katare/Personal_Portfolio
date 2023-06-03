@@ -1,5 +1,14 @@
 const BlogsAPI = [
   {
+    id: 18,
+    title: "Unveiling the AI Treasures",
+    discription: "Artificial intelligence (AI) is revolutionizing our lives in remarkable ways, touching diverse areas like healthcare, entertainment, education, and business.",
+    paraTwo: " 10 Hidden Gems",
+    date: "May 16, 2023",
+    liveBlogLink: "https://www.showwcase.com/show/35096/unveiling-the-ai-treasures-10-hidden-gems-for-unleashing-your-creativity-and-productivity",
+    imgUrl: "https://project-assets.showwcase.com/1420x/13602/1684254028544-Copy%2520of%2520Copy%2520of%2520myimage%2520(140%2520%25C3%2597%2520.png?type=webp"
+  },
+  {
     id: 17,
     title: "Unleashing the Power of Aliases",
     discription: "Hello, fellow tech enthusiasts! Are you tired of dealing with long, confusing import statements in your JavaScript projects?",
