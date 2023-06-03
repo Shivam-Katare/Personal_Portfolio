@@ -3,62 +3,24 @@ import "./AboutMe.css"
 import { TypeAnimation } from 'react-type-animation';
 import NavBar from '../NavBar/NavBar';
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import VideoPlayer from './VideoIntro';
 
 function AboutMe() {
   return (
     <>
-      <NavBar />
-      <section class="about" id="about">
-        <div class="max-width">
+      <motion.section class="about" id="about"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <div class="max-width" data-scroll-section>
           <h2 class="title">About me</h2>
           <div class="about-content">
-            <div class="column left">
-              <h3 class="education">Education/Work</h3>
-              <ul class="edu-list" id='style-3'>
-                <li class="edu-date-list">July 2022 - Present</li>
-                <p class="edu-para">React JS Developer at <strong>AccuKnox</strong></p>
-
-                <li class="edu-date-list">August 2022 - October 2022</li>
-                <p class="edu-para"><a className='achive-link inverted-7' target="_blank" href="https://drive.google.com/file/d/1-2QekibE9dqt0JsiOZ997jW_YvUFfxrv/view?usp=sharing">SSOC Open Source Contributer</a></p>
-
-                <li class="edu-date-list">April 2022 - Present</li>
-                <p class="edu-para">Contributer at <strong>ReactPlay</strong></p>
-
-                <li class="edu-date-list">March 2022 - November 2022</li>
-                <p class="edu-para"><a className='achive-link' target="_blank" href="https://drive.google.com/file/d/1U7nVz77ck-vBOacGkrRMTQPYLBr_s4hd/view?usp=share_link">Udemy Web Development & Web3 Course</a></p>
-
-                {/* <li class="edu-date-list">September 2022</li>
-                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/thread/46502">ShowwCase GDSAugust Blogging Winner</a></p> */}
-
-                {/* <li class="edu-date-list">January 2023</li>
-                <p class="edu-para"><a className='achive-link' target="_blank" href="https://www.showwcase.com/show/25223/dev-elevate-silver-winners">ShowwCase Dev Elevate Silver Winner</a></p>
-
-                <li class="edu-date-list">April 2020 - June 2020 </li>
-                <p class="edu-para">Certified by TCS ION</p>
-
-                <li class="edu-date-list">June 2019 - September 2022</li>
-                <p class="edu-para">Bachelor in Computer Application</p>
-
-                <li class="edu-date-list">April 2018 - June 2019</li>
-                <p class="edu-para">Class 12th</p> */}
-                <div className='timeline-achivement-container'>
-                  <Link to="/timeline">
-                    <button className="timeline-button">
-                      <div class="svg-wrapper-1">
-                        <div class="svg-wrapper">
-                          <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
-                          </svg>
-                        </div>
-                      </div>
-                      <span>See All</span>
-                    </button>
-                  </Link>
-                
-                </div>
-              </ul>
-            </div>
+            <motion.div class="column left" initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+              transition={{ delay: 1, ease: "linear" }}>
+              <VideoPlayer />
+            </motion.div>
             <div class="column right">
               <div class="text">I'm Shivam and I'm a <span class="typing-2"><TypeAnimation
                 sequence={[
@@ -80,17 +42,17 @@ function AboutMe() {
                 cursor={true}
                 repeat={Infinity}
               /></span></div>
-              <p className='my-skills' id='style-3'>Hello there 👋! My name is Shivam Katare and I'm a <b className='about-text-border'>self-taught web developer</b> from India. My passion lies in Web Development, contributing to "Open Source" projects, and writing "Technical Blogs."
+              <p className='my-skills' id='style-3'>Hello there 👋! My name is Shivam Katare, a <b className='about-text-border'>self-taught web developer</b> from India. My passion lies in Web Development, contributing to "Open Source" projects, and writing "Technical Blogs."
                 <br /><br />
                 I specialize in using <b className='about-text-border'>MERN stack</b> tools to create numerous projects in both front-end and back-end with <b className='about-text-border'>JavaScript</b>. Collaborating with team members is what I enjoy the most, as it opens up new avenues for exploring ideas and innovative solutions.
                 <br /><br />
                 I pride myself on creating <b className='about-text-border'>efficient, user-friendly, and optimal web solutions</b> that can be applied to real-world projects. I love to experiment with new ideas, always excited to try out new things, and never shy away from exploring new knowledge.
                 <br /><br />
-                With <b className='about-text-border'>1 year of professional experience</b> and <b className='about-text-border'>3 years of building projects with JS</b>, I have honed my skills to deliver high-quality solutions to clients. Additionally, I have <b>1+ year of experience contributing to open-source projects</b> which has given me a sense of fulfillment and a strong desire to continue giving back to the community.</p>
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   )
 }
