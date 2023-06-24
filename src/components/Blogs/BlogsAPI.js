@@ -1,5 +1,14 @@
 const BlogsAPI = [
   {
+    id: 19,
+    title: "PNPM",
+    discription: "Are you tired of lengthy npm installation times and duplicated dependencies slowing down your development process? Look no further-PNPM is here to revolutionize your...",
+    paraTwo: "A Blessing or a Mirage?",
+    date: "June 24, 2023",
+    liveBlogLink: "https://shivamkatareblog.hashnode.dev/pnpm-a-blessing-or-a-mirage-for-package-management",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1687587331216/7bcc2e33-a479-41fa-ae61-10ea975692dd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
     id: 18,
     title: "Unveiling the AI Treasures",
     discription: "Artificial intelligence (AI) is revolutionizing our lives in remarkable ways, touching diverse areas like healthcare, entertainment, education, and business.",
