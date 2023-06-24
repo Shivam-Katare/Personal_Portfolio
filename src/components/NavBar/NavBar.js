@@ -62,7 +62,7 @@ function NavBar() {
             <li><Link to="/skills" className="menu-btn">Skills</Link></li>
             <li><Link to="/projects" className="menu-btn">Projects</Link></li>
             <li><Link to="/os-projects" className="menu-btn">OS Contribution</Link></li>
-            <li><Link to="/#connect" className="menu-btn">Connect</Link></li>
+            <li><Link to="/contact" className="menu-btn">Connect</Link></li>
           </ul>
           <div className="menu-btn" onClick={handleMenuClick}>
           {isActive ? <GiCancel /> : <BiAlignMiddle />}
