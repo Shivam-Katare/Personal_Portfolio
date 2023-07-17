@@ -1,5 +1,13 @@
 const ProjectAPI = [
   {
+    id: 15,
+    title: "Summize",
+    discription: "Summize simplifies complex and lengthy text into a concise summary, saving you valuable time and helping you quickly digest important information.",
+    liveLink: "https://summize-summary.vercel.app/",
+    github: "https://github.com/Shivam-Katare/Summize",
+    imgUrl: "https://ik.imagekit.io/dnwefib6s4/Screenshot__1036_.png?updatedAt=1689617548135",
+  },
+  {
     id: 14,
     title: "Byte-Buddies",
     discription: "Byte-Buddies is a real-time chat app built using React and Firebase. It allows users to create an account, update their profile with an avatar, and chat with other registered users.",
