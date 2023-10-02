@@ -9,6 +9,7 @@ import Projects from '../Projects/Projects';
 
 import { AnimatePresence } from 'framer-motion';
 import Contact from '../Contact/Contact';
+import Review from '../OpenSource/Review';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -20,7 +21,7 @@ function AnimatedRoutes() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/os-projects" element={<OSProjects />} />
+        <Route path="/os-projects" element={<Review />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </AnimatePresence>

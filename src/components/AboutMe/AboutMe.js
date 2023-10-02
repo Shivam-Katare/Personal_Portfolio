@@ -24,15 +24,9 @@ function AboutMe() {
             <div class="column right">
               <div class="text">I'm Shivam and I'm a <span class="typing-2"><TypeAnimation
                 sequence={[
-                  'FullStack Web-Developer',
+                  'Frontend Developer',
                   1000, // Waits 1s
                   'Technical Content Writer',
-                  2000, // Waits 2s
-                  'Open Source Contributer',
-                  2000,
-                  "DevOps Enthusiast",
-                  2000,
-                  "Learner",
                   2000,
                   () => {
                     console.log('Done typing!');
