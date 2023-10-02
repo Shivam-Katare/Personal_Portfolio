@@ -113,6 +113,43 @@ a.card-github-links {
   grid-row-gap: 20px;
 }
 
+.btn {
+  color: rgb(35, 162, 12);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid rgb(35, 162, 12);
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: rgb(35, 162, 12);
+  z-index: -1;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.btn:hover::before {
+  width: 160%;
+}
+
 @media(max-width: 1189px) {
   .carousel.owl-carousel-os {
     grid-template-columns: repeat(2, 1fr);

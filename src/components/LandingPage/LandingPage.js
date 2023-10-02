@@ -68,7 +68,7 @@ function LandingPage() {
                 And I'm a{' '}
                 <TypeAnimation
                   sequence={[
-                    'FullStack Web-Developer',
+                    'Frontend Developer',
                     1000, // Waits 1s
                     'Technical Content Writer',
                     2000, // Waits 2s

@@ -2,8 +2,9 @@ import React from 'react'
 import "./Contact.css"
 import DeveloperImage from "../images/developerImage.png";
 import { motion } from "framer-motion";
-import { SiGithub, SiGmail, SiHashnode, SiLinkedin, SiTwitter } from 'react-icons/si';
-import { FaGlobe } from 'react-icons/fa';
+import { SiGithub, SiGmail, SiHashnode, SiLinkedin } from 'react-icons/si';
+import { FaGlobe,  } from 'react-icons/fa';
+import { RiTwitterXFill } from "react-icons/ri";
 
 function Contact() {
   return (
@@ -22,7 +23,7 @@ function Contact() {
               <div class="icons">
                 <div className='contact-footer-links'>
                   <div className='icon-links'>
-                    <a href='' target='_blank'><SiTwitter style={{ color: "#00d2ff" }} /></a>
+                    <a href='https://twitter.com/Shivamkatare_27' target='_blank'><RiTwitterXFill style={{ color: "black", background: "white", borderRadius: "6px" }} /></a>
                   </div>
                   <div className='icon-links'>
                     <a href="https://www.linkedin.com/in/shivam-katare-aa80b218b/" target='_blank'><SiLinkedin style={{ color: "#0595fa" }} /></a>
@@ -42,7 +43,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div class="column right">
+            <div class="column right" style={{zIndex: 100}}>
               <img src={DeveloperImage} class="me" />
             </div>
           </div>
