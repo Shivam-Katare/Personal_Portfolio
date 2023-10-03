@@ -57,7 +57,7 @@ function AboutMe() {
             </button>
           </Link>
 
-          <Link to="/blog" class="learn-more">
+          <Link to="/blogs" class="learn-more">
             <button class="about-learn-more">
               <span class="about-circle" aria-hidden="true">
                 <span class="about-icon about-arrow"></span>
