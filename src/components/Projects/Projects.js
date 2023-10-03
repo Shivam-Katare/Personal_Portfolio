@@ -3,6 +3,7 @@ import ProjectAPI from './ProjectAPI'
 import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 function Projects() {
   const data = ProjectAPI;
@@ -39,6 +40,17 @@ function Projects() {
               })}
             </div>
           </div>
+        </div>
+
+        <div class="projects-buttons">
+          <Link to='/os-projects' class="learn-more">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Explore my Contributions</span>
+            </button>
+          </Link>
         </div>
       </motion.section>
     </>

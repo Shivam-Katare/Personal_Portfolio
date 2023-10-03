@@ -39,6 +39,26 @@ function Blogs() {
               })}
             </div>
           </div>
+
+          <div class="blogs-buttons">
+            <a href='https://shivamkatareblog.hashnode.dev/' target='_blank' class="learn-more">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Explore my Hashnode Blogs</span>
+            </button>
+            </a>
+
+            <a href='https://shivam-katare.showwcase.com/shows' target='_blank' class="learn-more">
+              <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Explore my ShowwCase Blogs</span>
+            </button>
+            </a>
+          </div>
         </div>
       </motion.section>
     </>
