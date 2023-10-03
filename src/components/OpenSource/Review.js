@@ -15,7 +15,7 @@ function Review() {
         exit={{ opacity: 0 }}>
         <div class="max-width">
           <h2 class="title">My Open Source Contributions</h2>
-          <div className='projects-contains'>
+          <div className='open-source-contributions'>
             {/* <Markdown>
               {markdown}
 
@@ -23,11 +23,11 @@ function Review() {
             </Markdown> */}
 
 
-            <h2 align="center" style={{ marginBottom: "12px", color: "black", background: "gray", borderRadius: "7px" }}>Being a part of a community and participating in Open Source projects brings me great joy.</h2>
+            <h2 align="center" className='os-title' style={{ marginBottom: "12px", color: "black", background: "gray", borderRadius: "7px" }}>Being a part of a community and participating in Open Source projects brings me great joy.</h2>
 
             <hr style={{ marginBottom: "12px" }} />
 
-            <div align="center">
+            <div align="center" className="stats">
               <img src="https://streak-stats.demolab.com?user=Shivam-Katare&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="200" alt="streak graph" style={{ marginRight: "12px" }} />
               <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Shivam-Katare&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="200" alt="languages graph" style={{ marginRight: "12px" }} />
             </div>

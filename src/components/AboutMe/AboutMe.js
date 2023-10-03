@@ -46,6 +46,26 @@ function AboutMe() {
             </div>
           </div>
         </div>
+
+        <div class="blogs-buttons">
+          <Link to="/skills" class="learn-more">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Explore my Programming Skills</span>
+            </button>
+          </Link>
+
+          <Link to="/blog" class="learn-more">
+            <button class="about-learn-more">
+              <span class="about-circle" aria-hidden="true">
+                <span class="about-icon about-arrow"></span>
+              </span>
+              <span class="about-button-text">Explore my Technical Writing Skills</span>
+            </button>
+          </Link>
+        </div>
       </motion.section>
     </>
   )

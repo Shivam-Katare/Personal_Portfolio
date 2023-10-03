@@ -4,6 +4,7 @@ import { animate, motion } from "framer-motion";
 import { SiJavascript, SiTypescript, SiPython, SiNextdotjs, SiMaterialdesign, SiJquery, SiNodedotjs, SiExpress, SiD3Dotjs, SiSass, SiTailwindcss, SiBootstrap, SiFirebase, SiMongodb, SiMysql, SiStorybook, SiCypress, SiJest, SiDocker, SiKubernetes, SiJira, SiGithub, SiVercel, SiNetlify } from "react-icons/si";
 import { FaJava, FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { gsap, Power3, Power2 } from 'gsap';
+import { Link } from 'react-router-dom';
 
 function Skills() {
 
@@ -101,6 +102,17 @@ function Skills() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="skills-buttons">
+          <Link to='/projects' class="learn-more">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Explore my Projects</span>
+            </button>
+          </Link>
         </div>
       </motion.section>
     </>

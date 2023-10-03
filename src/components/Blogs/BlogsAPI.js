@@ -1,31 +1,40 @@
 const BlogsAPI = [
   {
-    id: 19,
-    title: "PNPM",
-    discription: "Are you tired of lengthy npm installation times and duplicated dependencies slowing down your development process? Look no further-PNPM is here to revolutionize your...",
-    paraTwo: "A Blessing or a Mirage?",
-    date: "June 24, 2023",
-    liveBlogLink: "https://shivamkatareblog.hashnode.dev/pnpm-a-blessing-or-a-mirage-for-package-management",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1687587331216/7bcc2e33-a479-41fa-ae61-10ea975692dd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+    id: 20,
+    title: "Stunning Image Horizontal Slider",
+    discription: "Create an interactive image slider for your website. A well-styled image slider can enhance the visual experience for your users and engagingly showcase your best photos....",
+    // paraTwo: "A Step-by-Step Guide",
+    date: "Sep 2, 2023",
+    liveBlogLink: "https://shivamkatareblog.hashnode.dev/create-a-stunning-image-horizontal-slider-using-css",
+    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1693626751827/a5700fcf-319d-416d-ba6a-77e1a8dc9127.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
   },
-  {
-    id: 18,
-    title: "Unveiling the AI Treasures",
-    discription: "Artificial intelligence (AI) is revolutionizing our lives in remarkable ways, touching diverse areas like healthcare, entertainment, education, and business.",
-    paraTwo: " 10 Hidden Gems",
-    date: "May 16, 2023",
-    liveBlogLink: "https://www.showwcase.com/show/35096/unveiling-the-ai-treasures-10-hidden-gems-for-unleashing-your-creativity-and-productivity",
-    imgUrl: "https://project-assets.showwcase.com/1420x/13602/1684254028544-Copy%2520of%2520Copy%2520of%2520myimage%2520(140%2520%25C3%2597%2520.png?type=webp"
-  },
-  {
-    id: 17,
-    title: "Unleashing the Power of Aliases",
-    discription: "Hello, fellow tech enthusiasts! Are you tired of dealing with long, confusing import statements in your JavaScript projects?",
-    paraTwo: " Simplify Your JavaScript Imports!",
-    date: "May 16, 2023",
-    liveBlogLink: "https://blog.reactplay.io/unleashing-the-power-of-aliases-simplify-your-javascript-imports",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1684239328816/0b23c156-b52c-4e0d-931d-97365156a051.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-  },
+  // {
+  //   id: 19,
+  //   title: "PNPM",
+  //   discription: "Are you tired of lengthy npm installation times and duplicated dependencies slowing down your development process? Look no further-PNPM is here to revolutionize your...",
+  //   paraTwo: "A Blessing or a Mirage?",
+  //   date: "June 24, 2023",
+  //   liveBlogLink: "https://shivamkatareblog.hashnode.dev/pnpm-a-blessing-or-a-mirage-for-package-management",
+  //   imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1687587331216/7bcc2e33-a479-41fa-ae61-10ea975692dd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  // },
+  // {
+  //   id: 18,
+  //   title: "Unveiling the AI Treasures",
+  //   discription: "Artificial intelligence (AI) is revolutionizing our lives in remarkable ways, touching diverse areas like healthcare, entertainment, education, and business.",
+  //   paraTwo: " 10 Hidden Gems",
+  //   date: "May 16, 2023",
+  //   liveBlogLink: "https://www.showwcase.com/show/35096/unveiling-the-ai-treasures-10-hidden-gems-for-unleashing-your-creativity-and-productivity",
+  //   imgUrl: "https://project-assets.showwcase.com/1420x/13602/1684254028544-Copy%2520of%2520Copy%2520of%2520myimage%2520(140%2520%25C3%2597%2520.png?type=webp"
+  // },
+  // {
+  //   id: 17,
+  //   title: "Unleashing the Power of Aliases",
+  //   discription: "Hello, fellow tech enthusiasts! Are you tired of dealing with long, confusing import statements in your JavaScript projects?",
+  //   paraTwo: " Simplify Your JavaScript Imports!",
+  //   date: "May 16, 2023",
+  //   liveBlogLink: "https://blog.reactplay.io/unleashing-the-power-of-aliases-simplify-your-javascript-imports",
+  //   imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1684239328816/0b23c156-b52c-4e0d-931d-97365156a051.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  // },
   {
     id: 16,
     title: "Git Rebasing",
@@ -44,45 +53,65 @@ const BlogsAPI = [
     liveBlogLink: "https://blog.reactplay.io/mastering-typescript-a-comprehensive-guide-for-getting-started-with-typescript",
     imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681502860304/b6ed699b-575f-4468-b426-ee620ec720ce.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
   },
+  // {
+  //   id: 14,
+  //   title: "Cybersecurity 101",
+  //   discription: "As a beginner, you may have heard the term `cybersecurity` being thrown around a lot, but you may not fully understand what it means or why it is...",
+  //   paraTwo: "Protecting Yourself in the Digital World",
+  //   date: "Mar 18, 2023",
+  //   liveBlogLink: "https://shivamkatareblog.hashnode.dev/cybersecurity-101-protecting-yourself-in-the-digital-world",
+  //   imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1679151683426/4647eaac-825d-4542-bfff-64380d151d64.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  // },
   {
-    id: 14,
-    title: "Cybersecurity 101",
-    discription: "As a beginner, you may have heard the term `cybersecurity` being thrown around a lot, but you may not fully understand what it means or why it is...",
-    paraTwo: "Protecting Yourself in the Digital World",
-    date: "Mar 18, 2023",
-    liveBlogLink: "https://shivamkatareblog.hashnode.dev/cybersecurity-101-protecting-yourself-in-the-digital-world",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1679151683426/4647eaac-825d-4542-bfff-64380d151d64.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-  },
-  {
-    id: 13,
-    title: "The Power Of Open Source",
-    discription: "Hey there 👋, tech enthusiasts! Today, we're diving into the world of open-source software - and let me tell you, it's a real game-changer. If you're not...",
-    paraTwo: "How Collaboration is Revolutionizing Tech",
-    date: "Mar 12, 2023",
-    liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-power-of-open-source-how-collaboration-is-revolutionizing-tech",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678627703912/75207b8d-7353-49a8-9338-a1a0d6343428.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-  },
-  {
-    id: 12,
-    title: "Stacks Uncovered",
-    discription: "Have you ever played with a stack of pancakes? Yes, pancakes! Consider a stack of fluffy pancakes. Each with a unique topping: maple syrup, butter...",
-    paraTwo: "The Secret Weapon of Data Structures",
-    date: "Mar 5, 2023",
-    liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-secret-weapon-of-data-structures-stacks-uncovered",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678028314821/621cf525-51f5-40aa-9d31-61bd5de5968b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-
-  },
-  {
-    id: 1,
-    title: 'Debugging',
+    id: 7,
+    title: 'GitHub Actions',
     discription:
-      'Debugging is an essential part of the development process. It involves identifying and removing errors, also known as bugs, from computer programs. Without debugging,',
-    paraTwo: 'The Art of Refining Code',
-    date: '22 Feb 2023',
-    liveBlogLink: "https://shivamkatareblog.hashnode.dev/debugging-the-art-of-refining-code-until-it-shines",
-    imgUrl:
-      'https://cdn.hashnode.com/res/hashnode/image/upload/v1676876334971/f161fcc5-e77c-457a-9d4a-19883382fc01.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
+      'You are probably familiar with Github. A platform to build software, collaborate with folks and contribute to open-source projects.GitHub provides many functionalities that...',
+    paraTwo: 'How to get started Guide.',
+    date: '11 Jan 2022',
+    liveBlogLink: "https://blog.reactplay.io/how-to-get-started-with-github-actions",
+    imgUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1667991410675/GfupdsMfD.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
   },
+  {
+    id: 5,
+    title: 'How did I Get Into Tech?',
+    discription:
+      'Hey, My name is Shivam, and I am a third-year BCA student. In this blog, I will discuss How I Got into Tech. My path to becoming a tech person was bumpy,',
+    paraTwo: 'MyDevStory',
+    date: '22 Aug 2022',
+    liveBlogLink: "https://www.showwcase.com/show/16926/how-did-i-get-into-tech-mydevstory-gdsaugust",
+    imgUrl: 'https://project-assets.showwcase.com/1420x/13602/1661178295758-myimage%2520(140%2520%25C3%2597%252060%2520px)%2520(260%2520%25C3%2597%2520146%2520px)%2520(1600%2520%25C3%2597%2520840%2520px)%2520(1).png?type=webp'
+  },
+  // {
+  //   id: 13,
+  //   title: "The Power Of Open Source",
+  //   discription: "Hey there 👋, tech enthusiasts! Today, we're diving into the world of open-source software - and let me tell you, it's a real game-changer. If you're not...",
+  //   paraTwo: "How Collaboration is Revolutionizing Tech",
+  //   date: "Mar 12, 2023",
+  //   liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-power-of-open-source-how-collaboration-is-revolutionizing-tech",
+  //   imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678627703912/75207b8d-7353-49a8-9338-a1a0d6343428.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  // },
+  // {
+  //   id: 12,
+  //   title: "Stacks Uncovered",
+  //   discription: "Have you ever played with a stack of pancakes? Yes, pancakes! Consider a stack of fluffy pancakes. Each with a unique topping: maple syrup, butter...",
+  //   paraTwo: "The Secret Weapon of Data Structures",
+  //   date: "Mar 5, 2023",
+  //   liveBlogLink: "https://shivamkatareblog.hashnode.dev/the-secret-weapon-of-data-structures-stacks-uncovered",
+  //   imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1678028314821/621cf525-51f5-40aa-9d31-61bd5de5968b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+
+  // },
+  // {
+  //   id: 1,
+  //   title: 'Debugging',
+  //   discription:
+  //     'Debugging is an essential part of the development process. It involves identifying and removing errors, also known as bugs, from computer programs. Without debugging,',
+  //   paraTwo: 'The Art of Refining Code',
+  //   date: '22 Feb 2023',
+  //   liveBlogLink: "https://shivamkatareblog.hashnode.dev/debugging-the-art-of-refining-code-until-it-shines",
+  //   imgUrl:
+  //     'https://cdn.hashnode.com/res/hashnode/image/upload/v1676876334971/f161fcc5-e77c-457a-9d4a-19883382fc01.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
+  // },
   {
     id: 2,
     title: 'Seven Ways',
@@ -114,16 +143,6 @@ const BlogsAPI = [
     imgUrl: 'https://project-assets.showwcase.com/13602/1670675819922-1670675818904-Copy%252520of%252520myimage%252520(140%25252'
   },
   {
-    id: 5,
-    title: 'How did I Get Into Tech?',
-    discription:
-      'Hey, My name is Shivam, and I am a third-year BCA student. In this blog, I will discuss How I Got into Tech. My path to becoming a tech person was bumpy,',
-    paraTwo: 'MyDevStory',
-    date: '22 Aug 2022',
-    liveBlogLink: "https://www.showwcase.com/show/16926/how-did-i-get-into-tech-mydevstory-gdsaugust",
-    imgUrl: 'https://project-assets.showwcase.com/1420x/13602/1661178295758-myimage%2520(140%2520%25C3%2597%252060%2520px)%2520(260%2520%25C3%2597%2520146%2520px)%2520(1600%2520%25C3%2597%2520840%2520px)%2520(1).png?type=webp'
-  },
-  {
     id: 6,
     title: 'Fueler',
     discription:
@@ -133,16 +152,7 @@ const BlogsAPI = [
     liveBlogLink: "https://shivamkatareblog.hashnode.dev/fueler-a-revolutionary-platform",
     imgUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1673753428660/f5525fc2-031c-41f4-b45b-34a9912659de.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
   },
-  {
-    id: 7,
-    title: 'GitHub Actions',
-    discription:
-      'You are probably familiar with Github. A platform to build software, collaborate with folks and contribute to open-source projects.GitHub provides many functionalities that...',
-    paraTwo: 'How to get started Guide.',
-    date: '11 Jan 2022',
-    liveBlogLink: "https://blog.reactplay.io/how-to-get-started-with-github-actions",
-    imgUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1667991410675/GfupdsMfD.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
-  },
+
   {
     id: 8,
     title: 'Tools',
@@ -170,15 +180,6 @@ const BlogsAPI = [
     date: "30 Aug 2022",
     liveBlogLink: "https://blog.wemakedevs.org/testkube-the-kubernetes-native-testing-framework",
     imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1660573879323/cEfFssIsd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-  },
-  {
-    id: 11,
-    title: "React",
-    discription: "If you’ve been coding in React JS, the front-end library for building user interfaces, you probably know that it’s the most popular front-end framework...",
-    paraTwo: "Functional Components VS Class Components",
-    date: "5 Jul 2022",
-    liveBlogLink: "https://blog.reactplay.io/react-functional-components-vs-class-components",
-    imgUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1656945511026/jA3dg1RN0.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
   }
 ]
 

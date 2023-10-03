@@ -150,6 +150,11 @@ a.card-github-links {
   width: 160%;
 }
 
+.open-source-contributions {
+  display: grid;
+  justify-content: center;
+}
+
 @media(max-width: 1189px) {
   .carousel.owl-carousel-os {
     grid-template-columns: repeat(2, 1fr);
@@ -182,6 +187,32 @@ a.card-github-links {
   }
 }
 
+@media(max-width: 800px) {
+  .blogs-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 0.3fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+  }
+}
+
+@media(max-width: 537px) {
+  .os-title {
+    font-size: 12px;
+  }
+
+  .stats img {
+    width: 27rem;
+  }
+}
+
+@media(max-width: 455px) {
+  .stats img {
+    width: 20rem;
+  }
+}
+
 @media(max-width: 452px) {
   .card {
     width: 238px;
@@ -199,5 +230,13 @@ a.card-github-links {
 
   .project-dis {
     font-size: 11px;
+  }
+}
+
+@media(max-width: 443px) {
+  .blogs-buttons {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
   }
 }

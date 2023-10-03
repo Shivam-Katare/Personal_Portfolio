@@ -18,44 +18,44 @@ h3.education {
 
 .video-player {
   display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 video {
   cursor: pointer;
-    width: 18vw;
-    min-width: 298px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border: solid 1px rgb(134, 134, 134);
-    border-bottom: 0;
-    margin-top: -46px;
-    margin-left: 2rem;
-    background: rgb(0 0 0 / 30%);
-    box-shadow: 0 8px 32px 0 rgb(60 255 55);
-    backdrop-filter: blur(12.5px);
-    -webkit-backdrop-filter: blur(12.5px);
+  width: 18vw;
+  min-width: 298px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: solid 1px rgb(134, 134, 134);
+  border-bottom: 0;
+  margin-top: -46px;
+  margin-left: 2rem;
+  background: rgb(0 0 0 / 30%);
+  box-shadow: 0 8px 32px 0 rgb(60 255 55);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
 }
 
 .controls {
-    width: 18vw;
-    min-width: 298px;
-    background-color: #000000;
-    padding: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px rgb(134, 134, 134);
-    border-top: 0;
-    margin-bottom: 20px;
-    margin-left: 2rem;
-    position: sticky;
-    z-index: 1;
+  width: 18vw;
+  min-width: 298px;
+  background-color: #000000;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(134, 134, 134);
+  border-top: 0;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+  position: sticky;
+  z-index: 1;
 }
 
 .controls .btn {
@@ -67,6 +67,7 @@ video {
   cursor: pointer;
   transition: 0.4s;
 }
+
 .controls .btn:hover {
   color: #3cff37;
   transition: 0.4s;
@@ -84,9 +85,12 @@ video {
 
 /*progress bar*/
 input[type='range'] {
-  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
-  width: 100%; /* Specific width is required for Firefox. */
-  background: transparent; /* Otherwise white in Chrome */
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -94,7 +98,8 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 input[type='range']:focus {
-  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
 }
 
 input[type='range']::-ms-track {
@@ -116,7 +121,8 @@ input[type='range']::-webkit-slider-thumb {
   border-radius: 50%;
   background: #3cff37;
   cursor: pointer;
-  margin-top: -4px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  margin-top: -4px;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
   box-shadow: 1px 2px 10px #000000;
 }
 
@@ -175,21 +181,25 @@ input[type='range']::-ms-track {
   border-width: 16px 0;
   color: transparent;
 }
+
 input[type='range']::-ms-fill-lower {
   background: #2a6495;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
+
 input[type='range']:focus::-ms-fill-lower {
   background: #3071a9;
 }
+
 input[type='range']::-ms-fill-upper {
   background: #3071a9;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
+
 input[type='range']:focus::-ms-fill-upper {
   background: #367ebd;
 }
@@ -206,21 +216,18 @@ ul.edu-list {
   height: 25rem;
 }
 
-#style-3::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
 }
 
-#style-3::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #F5F5F5;
+#style-3::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
 }
 
-#style-3::-webkit-scrollbar-thumb
-{
-	background-color: #000000;
+#style-3::-webkit-scrollbar-thumb {
+  background-color: #000000;
 }
 
 p.edu-para {
@@ -300,7 +307,7 @@ b.about-text-border {
   transition: transform 0.3s ease-in-out;
 }
 
-.timeline-button:hover{
+.timeline-button:hover {
   cursor: pointer;
 }
 
@@ -333,6 +340,104 @@ b.about-text-border {
   }
 }
 
+.blogs-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  margin-top: 22px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.about-learn-more {
+  width: 25rem;
+  height: auto;
+}
+
+button.about-learn-more .about-circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0px -1rem;
+  width: 3rem;
+  height: 3rem;
+  background: #3cff37;
+  border-radius: 1.625rem;
+}
+
+button.about-learn-more .about-circle .about-icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.about-learn-more .about-circle .about-icon.about-arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.about-learn-more .about-circle .about-icon.about-arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.about-learn-more .about-button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #3cff37;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .about-circle {
+  width: 100%;
+}
+
+button:hover .about-circle .about-icon.about-arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .about-button-text {
+  color: #000000;
+}
+
 
 
 @media(max-width: 1121px) {
@@ -360,51 +465,69 @@ b.about-text-border {
   }
 }
 
+@media(max-width: 800px) {
+  .blogs-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 0.3fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+  }
+}
+
 @media (max-width: 602px) {
   .my-skills {
     overflow-y: scroll;
     height: 21rem;
     border-bottom: 3px dashed white;
   }
+
   .max-width {
     padding: 0 68px;
+  }
+
+  .about .about-content .right {
+    width: 106%;
+  }
 }
-.about .about-content .right {
-  width: 106%;
-}
+
+@media(max-width: 443px) {
+  .blogs-buttons {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 428px) {
   .max-width {
     padding: 0 5px;
     margin-right: 2rem;
-}
+  }
 
-.about .about-content .right {
-  width: 87%;
-  margin-left: 2.2rem;
-}
+  .about .about-content .right {
+    width: 87%;
+    margin-left: 2.2rem;
+  }
 
-video {
-  margin-left: 0rem;
-}
+  video {
+    margin-left: 0rem;
+  }
 
-.controls {
-  margin-left: 0rem;
-}
+  .controls {
+    margin-left: 0rem;
+  }
 
-.my-skills {
-  padding: 9px;
-}
+  .my-skills {
+    padding: 9px;
+  }
 
-.about .about-content .left {
-  width: 87%;
-  margin-left: 2.2rem;
-}
+  .about .about-content .left {
+    width: 87%;
+    margin-left: 2.2rem;
+  }
 }
 
 @media (max-width: 334px) {
   ul.edu-list {
     font-size: 12px;
-  }    
+  }
 }
